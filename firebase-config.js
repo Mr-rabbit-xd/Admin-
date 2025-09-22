@@ -4,14 +4,14 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase
 import { getDatabase } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",                 // your api key
-  authDomain: "YOUR_AUTH_DOMAIN_HERE",         // your auth domain e.g. your-app.firebaseapp.com
-  databaseURL: "YOUR_DATABASE_URL_HERE",      // e.g. https://your-app-default-rtdb.firebaseio.com
-  projectId: "YOUR_PROJECT_ID_HERE",           // your firebase project id
-  storageBucket: "YOUR_STORAGE_BUCKET_HERE",   // e.g. your-app.appspot.com
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE",
-  appId: "YOUR_APP_ID_HERE",
-  measurementId: "YOUR_MEASUREMENT_ID_HERE"
+  apiKey: "AIzaSyDOJRWTrO3A7_0SqvBxsCTt6bkNo8pV-bc",                   // আপনার API key
+  authDomain: "vcfweb-9bd1f.firebaseapp.com",                             // Auth domain
+  databaseURL: "https://vcfweb-9bd1f-default-rtdb.firebaseio.com",       // Realtime database URL
+  projectId: "vcfweb-9bd1f",                                             // Firebase project ID
+  storageBucket: "vcfweb-9bd1f.firebasestorage.app",                     // Storage bucket
+  messagingSenderId: "204316192596",                                      // Messaging sender ID (project number)
+  appId: "1:204316192596:android:5b5d6052167c5dd270a2c1",                 // App ID
+  measurementId: "G-XXXXXXXXXX"                                          // Measurement ID (Analytics, optional)
 };
 
 // Initialize Firebase
