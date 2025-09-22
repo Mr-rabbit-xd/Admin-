@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rabbit Mod Panel</title>
+  <script src="key.js" defer></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    video {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .container {
+      position: relative;
+      top: 0;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 10px auto;
+      background: url('https://i.ibb.co/zrMM0jD/logo.png') no-repeat center/cover;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .btn {
+      background: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .input {
+      width: 80%;
+      max-width: 300px;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+    }
+    .bottom-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .link-btn {
+      border: 1px solid white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background: transparent;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop playsinline>
+    <source src="https://files.catbox.moe/vdardq.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <div class="logo"></div>
+    <div class="title">TG ~ @Agent_subho26</div>
+    
+    <button class="btn">🔍 SEARCH VERSION</button>
+
+    <div class="input">GAME VERSION<br><b>20255#*</b></div>
+    <div class="input">GAME NAME<br><b>RABBIT MOD</b></div>
+    <div class="input">PLAY MODE<br><b>SAFE { 98% Accuracy }</b></div>
+
+    <input id="keyInput" class="input" type="text" placeholder="--------------------------" />
+    
+    <div>
+      <button class="btn" onclick="window.location.href='https://t.me/Agent_subho26'">GET KEY</button>
+      <button class="btn" onclick="validateKey()">LOGIN</button>
+    </div>
+
+    <div class="btn">👑 VIP LOGIN ACCESS 👑</div>
+
+    <div class="bottom-links">
+      <button class="link-btn">CONTECT</button>
+      <button class="link-btn" onclick="window.location.href='https://t.me/Agent_subho26'">TELEGRAM</button>
+    </div>
+  </div>
+</body>
+</html>
